@@ -1,0 +1,103 @@
+.logo{
+  padding-top: 10px;
+}
+.logo img{
+  width: 127px;
+    height: 40px;
+}
+ul {
+    padding: 0;
+    list-style: none;
+  }
+  .menu-item,.sub-item {
+    padding: 5px 0;
+  }
+a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #757575;
+}  
+.menu li{
+  padding-top: 0px;
+}
+  .menu, .sub-menu {
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    height: 285px;
+    border: #999 1px solid;
+  }
+  
+  .sub-menu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+  }
+  
+  .menu-item:hover > .sub-menu,
+  .sub-item:hover > .sub-menu {
+    display: block;
+  }
+  a:hover{
+    color: red;
+  }
+  .logo,.menu{
+    margin-left: 50px;
+  }
+  .menu{
+    position:absolute;
+    top:0;
+    left: 0;
+    background-color: aliceblue;
+  }
+  .sub-menu{
+    background-color: aliceblue;
+  }
+  .container{
+    width: 988px;
+    height: 390px;
+    position: relative;
+  }
+  .container img{
+    margin-top: 16px;
+    margin-left: 270px;
+    width: 988px;
+    height: 307px;
+  }
+
+  .wrapper{
+    border: #999 1px solid;
+    width: 25%;
+  }
+  .wrapper-img li{
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .wrapper p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .wrapper span{
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  section{
+    position: relative;
+    width:1200px;
+    margin: auto;
+  }
+  section li{
+    display: inline-block;
+    margin-left: -5px;
+  }
+  section h3{
+    margin-right: auto;
+    margin-bottom: -5px;
+  }
+  section div p{
+    position: absolute;
+    right: 0;
+    top: -5px;
+  }
