@@ -1,0 +1,144 @@
+form{
+    width: 396px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.sub{
+    text-align: center;
+}
+input{
+    font-family: inherit;
+    line-height: 22px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    display: inline-block;
+    background: #FFFFFF url(/rsrc.php/v3/yO/r/YQNfPR9MJfx.png) repeat-x;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    margin-top: 10px;
+}
+.dangnhap{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 364px;
+    margin-top: 10px;
+    color: white;
+}
+a{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.signup{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.form-signup-wrapper{
+    display: none;
+}
+#form-signup{
+    display: none ;
+}
+input:checked + .form-signup-wrapper{
+    display: block;
+}
+.form-signup-wrapper{
+    background-color: transparent;
+        overflow: visible;
+        padding: 0;
+}
+.form-signup-header{
+    position: relative;
+}
+.form-signup-header h2{
+text-align: left;
+padding-left: 20px;
+padding-top: 20px;
+}
+.form-signup-header p{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -10px;
+}
+
+img{
+    position: absolute;
+    top:5px;
+    right: 5px;
+}
+#ho, #ten{
+    font-family: inherit;
+    width: 135px;
+    background: white;
+    border-radius: 5px;
+}
+#ho{
+    float: left;
+    margin-left: 22px;
+}
+#ten{
+    float: right;
+    margin-right: 22px;
+}
+#ngay,#thang,#nam{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 125px;
+}
+.form2{
+    width: 432px ;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    z-index: 10;
+}
+#ho,#ten,#sdd,#mkm{
+    padding: 14px 27px;
+}
+#girl,#boy,#tuychinh{
+    width: 80px;
+}
+#button {
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding-left: 32px;
+    padding-right: 32px;
+    text-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
