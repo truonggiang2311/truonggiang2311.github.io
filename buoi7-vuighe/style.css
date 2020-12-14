@@ -1,0 +1,266 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Quicksand", sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+/* Class chung */
+.container {
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row {
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.col-1 {
+    width: 4.17%;
+}
+
+.col-2 {
+    width: 8.33%;
+}
+
+.col-3 {
+    width: 12.5%;
+}
+
+.col-4 {
+    width: 16.67%;
+}
+
+.col-5 {
+    width: 20.8%;
+}
+
+.col-6 {
+    width: 25%;
+}
+
+.col-7 {
+    width: 29.17%;
+}
+
+.col-8 {
+    width: 33.33%;
+}
+
+.col-9 {
+    width: 37.5%;
+}
+
+.col-10 {
+    width: 41.7%;
+}
+
+.col-11 {
+    width: 45.9%;
+}
+
+.col-12 {
+    width: 50%;
+}
+
+.col-13 {
+    width: 54.17%;
+}
+
+.col-14 {
+    width: 58.33%;
+}
+
+.col-15 {
+    width: 62.5%;
+}
+
+.col-16 {
+    width: 66.67%;
+}
+
+.col-17 {
+    width: 70.8%;
+}
+
+.col-18 {
+    width: 75%;
+}
+
+.col-19 {
+    width: 79.17%;
+}
+
+.col-20 {
+    width: 83.33%;
+}
+
+.col-21 {
+    width: 87.6%;
+}
+
+.col-22 {
+    width: 91.7%;
+}
+
+.col-23 {
+    width: 95.9%;
+}
+
+.col-24 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Chi tiết */
+.header{
+    margin-top: 10px;
+}
+body {
+    background-color: #f3f3f3;
+}
+.intro{
+    margin-top: 10px;
+}
+.intro-item {
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.intro-item--main {
+    height: 295px;
+    margin-right: 17px;
+}
+
+.item {
+    height: 180px;
+    margin-left: -15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.menu-item:nth-child(1){
+    color: #fff;
+    background: #f3384a;
+}
+.menu-item:nth-child(2){
+    color: #fff;
+    background: #ff5722;
+}
+.menu-item:nth-child(3){
+    color: #fff;
+    background: #efb700;
+}
+.menu-item:nth-child(4){
+    color: #fff;
+    background: #a180da;
+}
+.menu-item:nth-child(5){
+    color: #fff;
+    background: #5b7dff;
+}
+.menu-item{
+    margin: 5px;
+    padding: 0 8px;
+    border-radius: 2px;
+}
+.heading{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.item{
+    position: relative;
+}
+.item-description{
+    position: absolute;
+    z-index: 1;
+    bottom: 1px;
+    margin-left: 10px;
+}
+.item h3{
+    color: #eee;
+    font-size: 15px;
+}
+.item-info{
+    color: #eee;
+    font-size: 12px;
+    width: 300px;
+}
