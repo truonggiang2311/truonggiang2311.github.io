@@ -1,0 +1,377 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+    scroll-behavior: smooth;
+}
+body{
+    color: #777;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+/* class chung */
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.flex-column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
+.align-around{
+    align-content: space-around;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.col-1 {
+    width: 4.17%;
+}
+
+.col-2 {
+    width: 8.33%;
+}
+
+.col-3 {
+    width: 12.5%;
+}
+
+.col-4 {
+    width: 16.67%;
+}
+
+.col-5 {
+    width: 20.8%;
+}
+
+.col-6 {
+    width: 25%;
+}
+
+.col-7 {
+    width: 29.17%;
+}
+
+.col-8 {
+    width: 33.33%;
+}
+
+.col-9 {
+    width: 37.5%;
+}
+
+.col-10 {
+    width: 41.7%;
+}
+
+.col-11 {
+    width: 45.9%;
+}
+
+.col-12 {
+    width: 50%;
+}
+
+.col-13 {
+    width: 54.17%;
+}
+
+.col-14 {
+    width: 58.33%;
+}
+
+.col-15 {
+    width: 62.5%;
+}
+
+.col-16 {
+    width: 66.67%;
+}
+
+.col-17 {
+    width: 70.8%;
+}
+
+.col-18 {
+    width: 75%;
+}
+
+.col-19 {
+    width: 79.17%;
+}
+
+.col-20 {
+    width: 83.33%;
+}
+
+.col-21 {
+    width: 87.6%;
+}
+
+.col-22 {
+    width: 91.7%;
+}
+
+.col-23 {
+    width: 95.9%;
+}
+
+.col-24 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* header */
+.header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu a{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #222;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+
+/* main */
+
+/* section co hinh anh */
+h1{
+    color: inherit;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.section-background-blue{
+    background-image: url(http://coderspoint.net/html/planhost/assets/img/bg/slider-bg.png);
+    padding: 100px 0;
+    color: white;
+}
+.items-article{
+    padding: 15px 0;
+}
+.text-center{
+    text-align: center;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-header{
+    padding-bottom: 50px;
+    max-width: 550px;
+    margin: auto;
+}
+.section-items{
+    padding: 50px 30px;
+    border: 1px solid #ececec;
+    margin-right: 30px;
+}
+
+.section-items p{
+    padding: 5px 0;
+}
+.background-white{
+    background-color: white;
+}
+.getitnow{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%);
+    color: white;
+}
+h2{
+    font-size: 30px;
+    color: black;
+}
+h3{
+    font-size: 25px;
+    color: #000;
+}
+.getitnow p{
+    padding-top: 0px;
+}
+.bottom-30px{
+    margin-bottom: 30px;
+}
+.avatar{
+    border-radius: 50%;
+}
+
+.btn{
+    margin-right: 15px;
+    padding: 10px 25px;
+}
+.btn-trnsp{
+    background-color: white;
+}
+.btn-trnsp:hover{
+    background-color: white;
+    color: #8da7f4;
+}
+.btn-trnsp {
+    border: 1px solid #fff;
+    background: transparent;
+}
+.button{
+    padding-top: 30px;
+}
+
+.btn-white{
+    background-color: white;
+    color: #8da7f4;
+}
+.btn-white:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid #fff;
+}
+.btn-blue{
+    background: linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%);
+    color: white;
+}
+.btn-blue a:hover{
+    background-color: white;
+    color: linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%); 
+    border:1px solid linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%);
+}
+.btn-grey{
+    color: #222;
+    background: #f9f9ff;
+    border: 1px solid #ececec;
+}
+.btn-grey:hover{
+    color: linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%); 
+    border:1px solid linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%);
+}
+input {
+    height: 39px;
+    width: 400px;
+    padding: 5px 10px;
+    padding-top: 0px;
+    color: #fff;
+    border-bottom: 1px solid #93c9f3;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #84c9f1;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 5px;
+    font: inherit;
+    margin-top: 6px;
+}
+form{
+    background: linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%);
+    margin: 0px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+form input{
+    margin-left: 50px;
+    width: 500px;
+}
+#message{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.address-info{
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 118px;
+    margin-left: -60px;
+    background-color: white;
+}
+.contact,.email-address{
+    padding: 20px 0;
+}
+.footer{
+    padding: 20px 0;
+    background-color: white;
+}
+
+.price{
+    margin-top: 35px;
+    font-size: 42px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 42px;
+    color: #8da7f4;
+}
+/* Features That Represent Us hover */
+.hover-blue:hover{
+    background: linear-gradient(to right, #8da7f4 0%,#8da7f4 13%,#80aef2 32%,#47cde9 84%,#38d5e7 100%);
+    transform: scale(1.05); 
+}
+.hover-blue:hover{
+    transition: transform .2s;
+}
+/* service hover */
+.hover-shadow:hover{
+    box-shadow: 0px 20px 50px 0px rgba(141, 167, 244, 0.5);
+    transform: scale(1.05); 
+}
+.hover-shadow:hover{
+    transition: transform 0.2s;
+}
