@@ -163,7 +163,7 @@ sequense(4, 3, 2)
 sequense(1, 3, 5)
 sequense(4, 5, 2)
 
-/* Chua Chay
+/* *********Chua Chay*******************
 // viet ham countDecimal(number) tra ve chu so trong phan thap phan cua number
 function digits_count(n) {
     var count = 0;
@@ -184,7 +184,7 @@ let countDecimal = function (number) {
 countDecimal(9.1);
 */
 
-/* Chua chay
+/********Chua chay***********
 // viet ham isAscending(number) kiem tra day cua number co phai tang dan hay khong
 let sequense = function (a, b, c) {
     if (a < b &&  b < c) {
@@ -229,7 +229,7 @@ find=(number) => {
 }
 find(7);
 
-/* Chua chay
+/* ***********Chua chay******************
 // 10. Viet ham sum(value1, unit1, value2, unit2) quy doi ve cung don vi va tra ve tong value1+value2 theo unit1,
 // bao gom km,m,cm,dm,mm. VD sum(1,'km',100,'m')=1,1km
 function sum(value1, unit1, value2, unit2) {
