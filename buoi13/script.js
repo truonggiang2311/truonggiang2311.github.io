@@ -106,3 +106,58 @@ char("ad")
 
 
 
+////////Aray////////Viết hàm triển khai các phương thức của Array như forEach, filter, indexOf, push, pop, concat, ...
+
+//forEach
+var fruits = ["apple", "orange", "cherry"];
+fruits.forEach(myFunction);
+
+function myFunction(item, index) {
+  console.log(item + ":" + index)
+}
+
+//filter
+arr = [
+    { name: "a", age: 10 },
+    {name:"b" , age: 20}
+]
+arr.filter((i) => i.age > 15)
+
+//indexOf
+arr = [1, 2, 3, 4, 5]
+arr.indexOf(2)
+
+//push
+arr = [1, 2, 3]
+arr.push(4, 5, 6)
+arr
+
+//pop
+arr = [1, 2, 3,4,5,6]
+arr.pop()
+arr
+
+//concat
+arr = [1, 2, 3, 4, 5]
+arr2 = [6, 7, 8, 9, 10]
+arr.concat(arr2)
+
+//////VD Method
+
+//join()
+arr = ["red", "orange", "blue", "green"]
+arr.join();
+
+//fill()
+arr = [1, 2, 3, 4, 5, 6]
+arr.fill(0);
+
+//find()
+let age = [10, 12, 15, 20]
+function check(age) {
+   return age > 18;
+}
+function myFunction() {
+   return age.find(check)
+}
+myFunction()
