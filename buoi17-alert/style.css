@@ -1,0 +1,12 @@
+
+.Alert{
+    margin-left: 30%;
+    width: 200px;
+}
+.Alert p{
+    text-align: center;
+    padding: 10px 0;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+}
