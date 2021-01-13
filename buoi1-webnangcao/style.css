@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.b1{
+    width: 100%;
+    height: 50px;
+    background-color: royalblue;
+    margin: 15px;
+}
+@media (min-width: 992px){
+    .b1{
+        width: 31%;
+    }
+    .container{
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
