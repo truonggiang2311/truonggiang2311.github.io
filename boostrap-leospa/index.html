@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+    <style>
+        
+        /* header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+    .navbar-brand{
+        display: block;
+        max-width: 109px;
+} */
+a{
+    text-decoration: none;
+}
+.primary-menu, .footer .foo-nav {
+    position: relative;
+}
+.primary-menu .mobile-menu, .footer .foo-nav .mobile-menu {
+    display: none;
+}
+        /* nav{
+            padding-top: 0px !important;
+        }
+        .navbar-brand{
+            padding-bottom: 0px !important;
+        }
+        .nav-link{
+            color: #263a41 !important;
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            padding: 0 20px !important;
+        }
+        .nav-link:hover{
+            color: #ff817e !important;
+        } */
+        .spa-img{
+            width: 43.4%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: -1;
+        }
+        .spa-img img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .banner {
+        background: url(https://demo.themeies.com/leospa/images/leaf.png) no-repeat left center/12.5%;
+        padding: 12% 0;
+    }
+    section {
+    display: block;
+    position: relative;
+    padding: 50px 0;
+    width: 100%;
+}
+    .banner span {
+        color: #ff817e;
+        display: block;
+        font-family: "Rufina", serif;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .banner h2 {
+    color: #1e2528;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+.btn {
+    background-color: #ff817e;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 15px;
+}
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+@media screen and (min-width: 480px){
+.banner .video-btn {
+    margin-left: 15px;
+}
+}
+.video-btn {
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+}
+.video-btn:hover{
+    color: #ff817e;
+}
+.video-btn i {
+    border-radius: 50%;
+    background-color: #fcf5ee;
+    color: #ff817e;
+    display: inline-block;
+    line-height: 44px;
+    text-align: center;
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+}
+.ti-control-play:before {
+    content: "\e6ad";
+}
+[class^="ti-"], [class*=" ti-"] {
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.about {
+    text-align: center;
+}
+.about .flower-1 {
+    left: 16%;
+    top: 0;
+    max-width: 160px;
+}
+.about [class|=flower] {
+    position: absolute;
+}
+.about .flower-2 {
+    right: 135px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 88px;
+}
+.m-auto {
+    margin: auto!important;
+}
+.sec-heading {
+    margin-bottom: 70px;
+    position: relative;
+    text-align: center;
+}
+.sec-heading img {
+    max-width: 84px;
+    margin: 0 auto 40px;
+}
+.sec-heading .tagline {
+    color: #888;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: .8;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.procedures {
+    position: relative;
+}
+.post {
+    border: 1px solid #e3e6ea;
+    text-align: center;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.post img {
+    margin-bottom: 35px;
+}
+.post h4, .post h4 a {
+    color: #263a41;
+    font-size: 22px;
+}
+.post h4 {
+    margin-bottom: 22px;
+}
+.post p {
+    margin-bottom: 39px;
+}
+.testimonial .single-tst {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bg-lightred {
+    background-color: #fff9f8;
+}
+.carousel-indicators li{
+    background-color: #ffc3c2;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    height: 8px;
+    width: 8px;
+}
+.testimonial .single-tst img {
+    margin: 0 auto 45px;
+    width: 59px;
+}
+.testimonial .single-tst .client-info .thumb {
+    border-radius: 50%;
+    margin-bottom: 22px;
+    height: 76px;
+    width: 76px;
+}
+.testimonial .single-tst p {
+    color: #263a41;
+    font-family: "Rufina", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 43px;
+}
+.testimonial .single-tst .client-info p {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.carousel-inner{
+    padding-bottom: 30px;
+}
+.team .single-memb {
+    position: relative;
+    width: 100%;
+}
+.team .single-memb .memb-details {
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 20px #f0f0f0;
+    box-shadow: 0 5px 20px #f0f0f0;
+    max-width: calc( 100% - 60px);
+    margin: -50px auto 0;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    z-index: 1;
+}
+.team .single-memb .memb-details h6 {
+    color: #263a41;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.team .single-memb .memb-details span {
+    display: block;
+    margin-bottom: 15px;
+}
+.team .single-memb .memb-social {
+    margin-top: -30px;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.team .single-memb .memb-social a {
+    border: 1px solid #30383b;
+    border-radius: 50%;
+    color: #30383b;
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-google:before {
+    content: "\e73e";
+}
+.ti-instagram:before {
+    content: "\e73d";
+}
+.appointment .appointment-wrap figure {
+    flex-basis: 40%;
+}
+.appointment .appointment-wrap .appointment-form {
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    padding-left: 100px;
+}
+.appointment .appointment-wrap .appointment-form form {
+    max-width: 650px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+@media screen and (min-width: 480px){
+.appointment-form .form-field.half-width input, .appointment-form .form-field.half-width .select-field {
+    width: 49%;
+}
+}
+.appointment-form .form-field input, .appointment-form .form-field textarea, .appointment-form .form-field select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #d4d3d3;
+    color: #999;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    width: 100%;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.btn-round {
+    border-radius: 50px;
+}
+.post .btn {
+    background-color: #30383b;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.post .btn:hover{
+    background-color: #ff817e;
+}
+.sec-heading .sec-title {
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+}
+.sec-heading p {
+    color: #888;
+    margin-bottom: 0;
+}
+.contact address {
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 80px;
+    position: relative;
+}
+.contact address span {
+    background-color: #ff817e;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 50px;
+}
+.ti-map-alt:before {
+    content: "\e691";
+}
+.ti-email:before {
+    content: "\e75a";
+}
+.contact address a {
+    color: #888;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+.ti-tablet:before {
+    content: "\e609";
+}
+.contact .contact-form {
+    width: 100%;
+}
+.contact .contact-form input, .contact .contact-form textarea {
+    border: 1px solid #e3e6ea;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.contact .contact-form textarea {
+    resize: none;
+}
+.logo {
+    display: block;
+    max-width: 109px;
+}
+.footer .foo-logo {
+    margin: 0 auto;
+}
+.footer .foo-nav {
+    margin: 30px 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.primary-menu li, .footer .foo-nav li {
+    display: inline-block;
+}
+.primary-menu li a, .footer .foo-nav li a {
+    color: #263a41;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+.foo-nav li a:hover{
+    color: #ff817e;
+}
+.footer .foo-social {
+    margin-bottom: 30px;
+}
+.footer .foo-social a {
+    border-right: 1px solid #b1b4bb;
+    color: #3a414e;
+    display: inline-block;
+    font-size: 14px;
+    line-height: .8;
+    padding: 0 10px;
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-instagram:before {
+    content: "\e73d";
+}
+.footer .copyright {
+    color: #888;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.footer .copyright a {
+    color: #ff817e;
+}
+.post p {
+    color: #6c6c6f;
+}
+@media screen and (max-width: 767px){
+    .primary-menu ul, .footer .foo-nav ul {
+    background-color: #fcf5ee;
+    text-align: center;
+    padding: 10px 0;
+}
+}
+.header.abs-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-brand{
+    display: block;
+    max-width: 109px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar-nav li a, .footer .foo-nav li a {
+    color: #263a41 !important;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+.navbar-nav li a:hover{
+    color: #ff817e !important;  
+}
+@media (max-width: 576px){
+            header{
+                position: relative;
+            }
+            .navbar-toggler{
+                position: absolute;
+                top:55px;
+                right: 0;
+            }
+            .spa-img{
+                display: none;
+            }
+            figure{
+                display: none;
+            }
+            .appointment-form{
+              flex-basis: 100% !important;
+              padding: 30px 15px !important;
+            }
+            .navbar-light .navbar-toggler {
+    color: white; 
+    border-color: white;
+            }
+
+}
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid row align-items-end">
+                        <div class="col-md-3">
+                        <a class="navbar-brand" href="#"><img src="https://demo.themeies.com/leospa/images/logo.png" alt=""></a>
+                        <button class="navbar-toggler mobile-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        </div>
+                        <div class="navbar-collapse col-md-9 primary-menu collapse show" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FEATURE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SERVICE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+        </div>
+    </header>
+
+    <!-- <header>
+        <div class="container">
+            <div class="row ">
+                <div class="col-12">
+                      <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid align-items-end">
+                          <a class="navbar-brand" href="#"><img src="https://demo.themeies.com/leospa/images/logo.png" alt=""></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse primary-menu" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">FEATURE</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">SERVICE</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                            </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+    <section class="banner">
+        <div class="spa-img">
+            <img src="https://demo.themeies.com/leospa/images/spa.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-9">
+                    <div class="banner-content">
+                        <span>SPA & BEAUTY CENTER</span>
+                        <h2>Beauty and success starts here.</h2>
+                        <p>Together creeping heaven upon third dominion be upon won't darkness rule behold it created good saw after she'd Our set living.</p>
+                        <a href="#" class="btn">reserve now</a>
+                        <a class="video-btn" data-fancybox="" href="https://www.youtube.com/watch?v=QWUPm0ND7HY">
+                            <i class="ti-control-play"></i>
+                            Watch our story
+                          </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <img src="https://demo.themeies.com/leospa/images/china-rose.png" alt="" class="flower-1">
+        <img src="https://demo.themeies.com/leospa/images/jasmine.png" alt="" class="flower-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-12 m-auto">
+                    <div class="sec-heading">
+                      <img src="https://demo.themeies.com/leospa/images/butterfly.png" alt="">
+                      <span class="tagline">About our spa center</span>
+                      <h3 class="sec-title">Come and you will be Inspired!</h3>
+                      <p>It’s the end of summer the sweltering heat makes human sweat in the night and makes the plants and trees wilt even in the moonlit nights. The eastern wind breeze brings an eerie feeling, that the monsoon clouds are soon coming, there is a strange silence in the ears, the sky gets darker and darker</p>
+                    </div>
+                    <a href="about.html" class="btn btn-round">Read more</a>
+                  </div>
+            </div>
+        </div>
+    </section>
+<!-- lam sau -->
+<!-- <section class="service">
+    <div class="service-caro owl-carousel owl-loaded owl-drag">
+    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1354px;"><div class="owl-item active" style="width: 333.5px; margin-right: 5px;"><div class="single-service">
+        <img src="https://demo.themeies.com/leospa/images/service/1.jpg" alt="">
+        <div class="service-hover">
+          <img src="https://demo.themeies.com/leospa/images/icons/1.png" alt="">
+          <span>Body Treatment</span>
+        </div>
+      </div></div><div class="owl-item active" style="width: 333.5px; margin-right: 5px;"><div class="single-service">
+        <img src="https://demo.themeies.com/leospa/images/service/2.jpg" alt="">
+        <div class="service-hover">
+          <img src="https://demo.themeies.com/leospa/images/icons/1.png" alt="">
+          <span>Body Treatment</span>
+        </div>
+      </div></div><div class="owl-item active" style="width: 333.5px; margin-right: 5px;"><div class="single-service">
+        <img src="https://demo.themeies.com/leospa/images/service/3.jpg" alt="">
+        <div class="service-hover">
+          <img src="https://demo.themeies.com/leospa/images/icons/1.png" alt="">
+          <span>Body Treatment</span>
+        </div>
+      </div></div><div class="owl-item active" style="width: 333.5px; margin-right: 5px;"><div class="single-service">
+        <img src="https://demo.themeies.com/leospa/images/service/4.jpg" alt="">
+        <div class="service-hover">
+          <img src="https://demo.themeies.com/leospa/images/icons/1.png" alt="">
+          <span>Body Treatment</span>
+        </div>
+      </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></div>
+  </section> -->
+
+    <section class="procedures">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 m-auto">
+                    <div class="sec-heading">
+                      <h3 class="sec-title">Popular Procedures</h3>
+                      <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                  <article class="post">
+                    <img src="https://demo.themeies.com/leospa/images/post/1.jpg" alt="">
+                    <h4><a href="services.html">Massage Therapy</a></h4>
+                    <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                    <a href="services.html" class="btn btn-round">read more</a>
+                  </article>
+                </div>
+                <div class="col-md-4">
+                  <article class="post">
+                    <img src="https://demo.themeies.com/leospa/images/post/2.jpg" alt="">
+                    <h4><a href="services.html">Beauty Care</a></h4>
+                    <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                    <a href="services.html" class="btn btn-round">read more</a>
+                  </article>
+                </div>
+                <div class="col-md-4">
+                  <article class="post">
+                    <img src="https://demo.themeies.com/leospa/images/post/3.jpg" alt="">
+                    <h4><a href="services.html">Executive Reflexology</a></h4>
+                    <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                    <a href="services.html" class="btn btn-round">read more</a>
+                  </article>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="testimonial bg-lightred">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-md-12 m-auto">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="single-tst">
+                            <img src="https://demo.themeies.com/leospa/images/quote.png" alt="">
+                            <p>First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.</p>
+            
+                            <div class="client-info">
+                              <img src="https://demo.themeies.com/leospa/images/client-1.png" alt="" class="thumb">
+                              <p>Jack Marsh, <span>Executive</span></p>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="single-tst">
+                            <img src="https://demo.themeies.com/leospa/images/quote.png" alt="">
+                            <p>First i beast be fruitful open you tree all Won't can't likeness and you're have whales creature seed to two grass life blessed you meat shall you winged under from their there he That you're one called gather make much red wherein set fourth green bearing fifth replenish given she had.</p>
+            
+                            <div class="client-info">
+                              <img src="https://demo.themeies.com/leospa/images/client-1.png" alt="" class="thumb">
+                              <p>Jack Marsh, <span>Executive</span></p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                      </ol>
+                  </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 m-auto">
+              <div class="sec-heading">
+                <h3 class="sec-title">Experienced Team</h3>
+                <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="single-memb">
+                <img src="https://demo.themeies.com/leospa/images/team/1.jpg" alt="">
+                <div class="memb-details">
+                  <h6>Joseph Austin</h6>
+                  <span>Thai Message</span>
+                  
+                  <div class="memb-social">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter-alt"></i></a>
+                    <a href="#"><i class="ti-google"></i></a>
+                    <a href="#"><i class="ti-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="single-memb">
+                <img src="https://demo.themeies.com/leospa/images/team/2.jpg" alt="">
+                <div class="memb-details">
+                  <h6>David Hannan</h6>
+                  <span>Thai Message</span>
+                  
+                  <div class="memb-social">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter-alt"></i></a>
+                    <a href="#"><i class="ti-google"></i></a>
+                    <a href="#"><i class="ti-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="single-memb">
+                <img src="https://demo.themeies.com/leospa/images/team/3.jpg" alt="">
+                <div class="memb-details">
+                  <h6>Cheryl Harris</h6>
+                  <span>Thai Message</span>
+                  
+                  <div class="memb-social">
+                    <a href="#"><i class="ti-facebook"></i></a>
+                    <a href="#"><i class="ti-twitter-alt"></i></a>
+                    <a href="#"><i class="ti-google"></i></a>
+                    <a href="#"><i class="ti-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+      <section class="appointment">
+        <div class="appointment-wrap d-flex">
+          <figure>
+            <img src="https://demo.themeies.com/leospa/images/appointment-img.jpg" alt="">
+          </figure>
+          <div class="appointment-form">
+            <form action="inc/apoint.php" class="contact-form" name="contactform" method="post" id="apoint-form">
+              <div class="form-field half-width d-flex flex-wrap justify-content-between">
+                <input type="text" placeholder="NAME" name="name" required="" id="name">
+                <input type="email" placeholder="Email address" name="email" required="" id="email">
+              </div>
+              <div class="form-field half-width d-flex flex-wrap justify-content-between">
+                <div class="select-field">
+                  <select id="service" name="service">
+                    <option value="">Select service</option>
+                    <option value="normal">Normal Service</option>
+                    <option value="vip">VIP Serevice</option>
+                  </select>
+                </div>
+                <input type="tel" placeholder="Phone numer" name="number" id="number">
+              </div>
+              <div class="form-field half-width d-flex flex-wrap justify-content-between">
+                <input type="date" placeholder="date" name="date" id="date">
+                <input type="time" placeholder="time" name="time" id="time">
+              </div>
+              <div class="form-field">
+                <textarea name="notes" placeholder="Your notes" id="comments"></textarea>
+              </div>
+              <button class="btn btn-round" id="asubmit">Make an Appointment</button>
+              <div id="amessage"></div>
+            </form>
+  
+          </div>
+  
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 m-auto">
+              <div class="sec-heading">
+                <h3 class="sec-title">Latest From Blog</h3>
+                <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <article class="post">
+                <img src="https://demo.themeies.com/leospa/images/post/1.jpg" alt="">
+                <h4><a href="blog.html">Massage Therapy</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="blog.html" class="btn btn-round">read more</a>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="post">
+                <img src="https://demo.themeies.com/leospa/images/post/2.jpg" alt="">
+                <h4><a href="blog.html">Beauty Care</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="blog.html" class="btn btn-round">read more</a>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="post">
+                <img src="https://demo.themeies.com/leospa/images/post/3.jpg" alt="">
+                <h4><a href="blog.html">Executive Reflexology</a></h4>
+                <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                <a href="blog.html" class="btn btn-round">read more</a>
+              </article>
+            </div>
+          </div>
+        </div>      
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 m-auto">
+              <div class="sec-heading">
+                <h3 class="sec-title">Get In Touch</h3>
+                <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-10 col-md-12 m-auto">
+              <div class="row">
+                <div class="col-md-4">
+                  <address>
+                    <span class="ti-map-alt"></span>
+                    848 E 28th ST, BROOKLYN <br>
+                    NEW YORK, USa
+                  </address>
+                  <address>
+                    <span class="ti-email"></span>
+                    <a href="mailto:example@leospa.com">example@leospa.com</a>
+                    <a href="mailto:example@leospa.com">example@leospa.com</a>
+                  </address>
+                  <address>
+                    <span class="ti-tablet"></span>
+                    <a href="tel:+0236523653265(02)">tel:+02 365 2365 3265 (02)</a>
+                    <a href="tel:+0136523653265(04)">+01 365 2365 3265 (04)</a>
+                  </address>
+                </div>
+                <div class="col-md-7 offset-md-1">
+                  <form action="inc/contact.php" class="contact-form" name="contactform" method="post" id="contact-form">
+                    <input type="text" placeholder="Name" name="name" id="name">
+                    <input type="text" placeholder="Email Address" name="email" id="email">
+                    <textarea placeholder="Write Comment" name="comments" id="comments"></textarea>
+                    <button type="submit" class="btn btn-round" id="submit">Submit now</button>
+                  </form>
+                  <div id="message"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <a href="index.html" class="logo foo-logo">
+                <img src="https://demo.themeies.com/leospa/images/logo.png" alt="">
+              </a>
+              <nav class="foo-nav">
+                <ul> 
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">feature</a></li>
+                  <li><a href="#">service</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="foo-social">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-twitter-alt"></i></a>
+                <a href="#"><i class="ti-vimeo-alt"></i></a>
+                <a href="#"><i class="ti-instagram"></i></a>
+              </div>
+              <p class="copyright">© COPYRIGHT 2019 <a href="https://themeies.com">themeies.com.</a> ALL RIGHTS RESERVED.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
