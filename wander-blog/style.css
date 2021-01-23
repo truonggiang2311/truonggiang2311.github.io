@@ -1,0 +1,301 @@
+.container{
+    max-width: 980px;
+}
+header{
+    padding-top: 43px;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 48px;
+}
+.nav{
+    padding-left: 20px;
+}
+.navbar-collapse{
+    margin-right: -20px;
+}
+.nav-link{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 3.57143px;
+color: #333333;
+}
+.action{
+position: absolute;
+width: 133px;
+height: 48px;
+left: 150px;
+top: 375px;
+}
+.arrow:focus{
+    outline: none;
+}
+.arrow{
+    padding: 0px 20px;
+    border: 0;
+    background: #FFFFFF;
+}
+.content{
+    margin-top: -156px;
+    margin-left: 100px;
+}
+.text{
+    width: 460px;
+    height: 200px;
+    background-color: white;
+    padding-left: 40px;
+    padding-top: 33px;
+    padding-right: 118px;
+}
+.welcome>img{
+    position: relative;
+    z-index: -1;
+    max-width: 100%;
+}
+.text .heading span{
+    font-weight: 200;
+}
+.random-title{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 57px;
+
+color: #333333;
+}
+.fact{
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.fact-number{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 86px;
+/* identical to box height */
+color: #EF5D64;
+padding-bottom: 34px;
+}
+
+.fact-title{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+
+color: #333333;
+padding-bottom: 25px;
+}
+.fact-description{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+padding-bottom: 40px;
+color: #333333;
+}
+.fact a{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #333333;
+padding-left: 130px;
+text-decoration: none;
+margin-top: auto;
+}
+.random-title .row{
+    border-top: 1px solid ;
+    border-bottom: 1px solid ;
+}
+.blog-title{
+    padding-top: 54px;
+    padding-bottom: 45px;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 57px;
+
+color: #333333;
+}
+.blog-items{
+    padding-left: 18px;
+    padding-bottom: 52px;
+}
+.blog-items p{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+padding-top: 30px;
+color: #333333;
+}
+.blog-items span{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+color: #333333;
+}
+.more{
+    width: 152px;
+height: 60px;
+}
+.more p{
+    padding-left: 35%;
+    padding-top: 10%;
+}
+.author{
+    padding-top: 106px;
+    padding-bottom: 145px;
+}
+.autor-quote{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 54px;
+    /* or 180% */
+    padding-bottom: 80px;
+    letter-spacing: 0.833333px;
+    
+    color: #333333;
+}
+.author-info{
+    padding-left: 36px;
+}
+.author-name{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+margin-bottom: -5px;
+letter-spacing: 2.5px;
+color: #333333;
+}
+.author-job{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+padding-top: 10px;
+letter-spacing: 2.5px;
+color: #333333;
+}
+input{
+border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+box-sizing: border-box;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+padding-left: 122px;
+padding-right: 260px;
+padding-top: 32px;
+padding-bottom: 31px;
+color: #797979;
+margin-left: 84px;
+margin-right: -1px;
+}
+.mail-icon{
+    position: absolute;
+    left: 116px;
+    top: 135px
+}
+.newsletter{
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 135px;
+}
+.newsletter p{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+padding-bottom: 63px;
+text-align: center;
+color: #333333;
+}
+.newsletter button{
+    position: absolute;
+    background-color: white;
+}
+.newsletter button img{
+    padding: 23px 32px;
+    padding-bottom: 22px;
+}
+.designby{
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3.21429px;
+
+color: #333333;
+}
+.footer{
+    padding-top: 17px;
+    border-top: 1px solid #979797;
+    padding-bottom: 133px;
+}
+.footer-nav ul{
+    list-style-type: none;
+}
+.footer-nav ul a{
+    text-decoration: none;
+    font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3.21429px;
+padding-left: 42px;
+color: #333333;
+}
+img{
+    max-width: 100%;
+}
+@media (max-width:576px){
+    input{
+        margin-left: 0;
+        padding-right: 25px;
+    }
+    .mail-icon {
+        position: absolute;
+        left: 40px;
+        top: 166px;
+    }
+    .footer-nav ul {
+        list-style-type: none;
+        padding-left: 0px !important;
+    }
+    .footer-nav ul a{
+        padding-left: 10px;
+    }
+}
