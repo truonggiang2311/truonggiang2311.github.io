@@ -1,0 +1,175 @@
+.container{
+    max-width: 1060px;
+}
+img{
+    max-width: 100%;
+}
+.menu{
+    list-style: none;
+}
+.menu-item{
+    margin-left: 120px;
+}
+.navbar .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+  .navbar-brand {
+    font-size: 30px;
+    font-family: "Inconsolata";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-align: center;
+  }
+    
+  .menu-item a {
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    text-transform: uppercase;
+    line-height: 1.714;
+    text-align: center;
+    text-decoration: none;
+  }
+  .blog-wrap{
+      width: 900px !important;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .category {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .title{
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    padding-bottom: 40px;
+  }
+  .description{
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    text-align: left;
+    padding-bottom: 55px;
+  }
+  .comment {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-bottom: 135px;
+  }
+  
+  .post{
+      width: calc((100%-50px)/2);
+      padding-bottom: 140px;
+  }
+  .post .category{
+      padding-top: 30px;
+  }
+  .post .description{
+    padding-right: 30px ;
+  }
+  .signup {
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 75px;
+    margin-bottom: 105px;
+  }
+  .signup-title{
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 85px;
+  }
+  .signup-email{
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 396px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+  }
+  .signup-email img{
+    padding-left: 160px;
+  }
+  button {
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    width: 164px !important;
+  }
+  button p{
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    padding-top: 18px;
+  }
+  .terms{
+    font-size: 14px;
+    font-family: "Playfair Display";
+    line-height: 1.714;
+    padding-left: 150px;
+  }
+  li{
+    list-style: none;
+  }
+  .terms li{
+    padding-right: 20px;
+  }
+  .terms li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .footer{
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 1375px;
+  }
+  .follow{
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+  .social li{
+    padding-right: 15px;
+  }
+@media (max-width:576px){
+  .post{
+    width: 100%;
+  }
+  .list-posts{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description{
+    width:419px ;
+  }
+  .terms{
+    padding-left: 0px;
+  }
+  .terms li{
+    padding-right: 0px;
+  }
+}
