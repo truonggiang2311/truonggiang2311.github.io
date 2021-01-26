@@ -75,6 +75,16 @@ let cut = (string, len) => {
 cut("hello",3)
 
 //10,Viết hàm tách chuỗi thành một mảng các chuỗi con. VD “dog” => [“d”, “do”, “dog”, “og”, “g”]
+let arr = ["dog"]
+let result = [];
+for (let i = 0, j = i + 1; i < arr.length; i++){
+  slice(0,i)
+}
+
+
+
+
+
 
 //11.Cho một mảng số, viết hàm loại bỏ số trùng lặp trong mảng. VD [1,2,2,3] => [1,2,3]
 let arr = [1, 2, 2, 3]
@@ -404,3 +414,4 @@ function toMonday(d) {
 }
 toMonday(28);
 toMonday(29);
+

@@ -108,3 +108,83 @@ function display_digit(number) {
 }
 display_digit(1234);
 
+// kiem tra so doi xung
+function soDoiXung(num) {
+    let tem = num, soDao = "";
+    while (temp >= 10) {
+        soDao += `${temp % 10}`;
+        temp = (temp - (temp % 10)) / 10;
+    }
+    soDao += `${temp}`;
+    if (num == +soDao) {
+        console.log(`${num} la so doi xung`)
+    }
+    else {
+        console.log(`${num} khong la so doi xung`)
+    }
+}
+soDoiXung(123);
+soDoiXung(12321);
+
+//kiem tra so perfect
+
+function perfect(n) {
+    sum = 0;
+    for (i = 1; i < n; i++) {
+        if (n % i == 0) {
+            sum += i;
+        }
+        if (sum == n) {
+            console.log(n+ "la so perfect")
+        }
+        else {
+            console.log(n+ "khong phai so perfect")
+        }
+    }
+}
+perfect(5);
+
+//day so fibonacci
+function printFib(n) {
+    let f1 = 0, f2 = 1;
+    let term = 1;
+    if (n == 1) {
+        console.log(`First ${n} term(s) of Fibonacci Sequence:`);
+        console.log(f1);
+    }
+    else {
+        console.log(`First ${n} term(s) of Fibonacci Sequence:`)
+        while (term <= n) {
+            console.log(f1);
+            let fth = f1 + f2;
+            f1 = f2;
+            f2 = fth;
+            term += 1;
+        }
+    }
+}
+printFib(8)
+
+//tim BCNN, UCLN
+function t(a,b) {
+    if (!isNaN(a) && !isNaN(b) && a != null && b != null) {
+        let max = a * b;
+        for (let i = a; i <= max; i++){
+            if (i % a == 0 && i % b == 0) {
+                console.log("BCNN la " + i);
+                break;
+            }
+        }
+        for (let i = a; i > 0; i--){
+            if (a % i == 0 && b % i == 0) {
+                console.log("UCLN la " + i);
+                break;
+            }
+        }
+    }
+    else {
+        console.log("ban da nhap sai")
+    }
+}
+t(15, 20);
+

@@ -1,4 +1,4 @@
-*,*::after, *::before{
+ *,*::after, *::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,7 +26,7 @@ img{
     height: auto;
 }
 /* class chung */
-.container{
+ .container{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -140,6 +140,7 @@ img{
 }
 
 /* chi tiet */
+
 body{
     background-color: #f3f3f3;
 }
@@ -200,4 +201,4 @@ footer h2{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
-}
+} 

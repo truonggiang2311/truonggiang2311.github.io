@@ -105,17 +105,19 @@ calculator.add();
 let Counter = {
     count: 0,
     up() {
-       return count = this.count + 1;
-    }
-    ,
+        console.log(this.count + 1);
+        return this;
+    },
     down() {
-       return count = this.count - 1;
+        console.log(this.count - 1);
+        return this;
     },
     get() {
-       return console.log(Counter.count + Counter.up() + Counter.down())
+        console.log(Counter.count + Counter.up() + Counter.down())
+        return this;
     }
 }
-Counter.get()
+Counter.up().up().get().down().get();
 
 
 //Viết hàm tạo Girl có các thuộc tính và phương thức tùy ý 😅

@@ -74,7 +74,7 @@ String.prototype.count = function (c) {
 }
 console.log("abca".count("a"))
 
-//9,Viết hàm cắt chuỗi theo số từ chỉ định. VD “My name is Ba”, 2 => “My name”
+//9,Viết hàm cắt chuỗi theo số từ chỉ định. VD “My name is Ba”, 2 => “My name” // cat chuoi roi ghep vao
 let stringCut = (n) => {
     let str = "My name is Ba";
     let space = str.indexOf(" ");
@@ -161,3 +161,4 @@ function myFunction() {
    return age.find(check)
 }
 myFunction()
+

@@ -1,6 +1,7 @@
 #heading{
     color: #1e73be;
 }
+
 a{
     color: grey;
     text-decoration: none;
@@ -11,3 +12,10 @@ img{
 #more{
     color: #2591ff!important;
 }
+p b{
+    color: yellow;
+}
+a[href="#Full"]{
+    color: pink;
+}
+
