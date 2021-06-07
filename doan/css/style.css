@@ -1,0 +1,677 @@
+body{
+    font-family: Montserrat-Regular, sans-serif !important;
+    background-color: #efefef !important;
+}
+.menu{
+    background-color: #FFFFFF;
+    padding-bottom: 1000px;
+}
+ul{
+    list-style: none;
+    padding: 0 !important;
+}
+a{
+    text-decoration: none !important;
+}
+img{
+    max-width: 100%;
+}
+.logo-web{
+    margin-left: -8px !important; 
+}
+.sidebar{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.sidebar > ul >li{
+    padding-bottom: 10px;
+}
+.main-menu{
+    padding-top: 1rem;
+}
+.menu-list{
+    padding: 0 !important;
+}
+.nav-link{
+    padding: 0 !important;
+    font-family: Roboto, sans-serif;
+    color: #172948 !important;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.nav-item{
+    padding: 0.8rem 0.2rem;
+    border-bottom: 1px solid #efefef;
+}
+.fb,.insta{
+    font-size: 1rem;
+    color: #172948;
+    padding: 0.6rem 0.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.subcribe{
+    font-size: 1.03rem;
+    font-family: Montserrat-Bold,sans-serif;
+    padding: 0.6rem 0.2rem;
+    margin-bottom: .5rem;
+    font-weight: 501;
+    line-height: 1.2;
+}
+.social{
+    padding-bottom: 10px;
+}
+.fb:hover{
+    color: #000;
+}
+.insta:hover{
+    color: #000;
+}
+.carousel-item{
+    height: 513px;
+}
+
+.layout-body{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/* thuong hieu vnsupplement */
+.trademark{
+    margin: 0 !important;
+}
+.trademark-widget{
+    background-color: #FFFFFF;
+    margin-right: 5px;
+    height: 400px;
+}
+.brand-section{
+    padding: 40px 30px;
+}
+.brand-name{
+    font-size: 1.5rem;
+    font-family: Roboto LightItalic, sans-serif;
+    font-style: italic;
+    padding-bottom: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.brand-name-description{
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.brand-logo{
+    padding: 40px 60px 80px 63px;  
+}
+.brand-logo>img{
+    max-width: none;
+}
+.brand-info{
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 13pt !important;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+.title>h5{
+    padding-left: 20px;
+    font-size: 28px;
+    width: 310px;
+}
+
+/* San phan Supplement */
+.sp{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.img-size{
+    height: 420px;
+}
+.slick-arrow{
+    z-index: 200;
+}
+.slick-prev{
+    z-index: 200;
+    width: 43px !important;
+    height: 43px !important;
+}
+.slick-next{
+    z-index: 200;
+    width: 43px !important;
+    height: 43px !important;
+}
+.slick-prev:before {
+    content: none !;
+    background: url(https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/prev.png) no-repeat !important;
+    font-size: 41px !important;
+    opacity: 1 !important;
+} 
+.slick-next:before {
+    content: none !;
+    background: url(https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/next.png) no-repeat !important;
+    font-size: 41px !important;
+    opacity: 1 !important;
+} 
+.info-produce{
+    background-color: #FFFFFF;
+    height: 420px !important;
+}
+.info-produce h3{
+    font-size: 20px !important;
+    padding-bottom: 1rem !important;
+    font-family: Roboto BlackItalic, sans-serif !important;
+    font-weight: bold !important;
+    color: #172948;
+    padding: 50px 20px ;
+    text-align: center;
+}
+.info-produce span{
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 14px;
+    font-style: italic!important;
+    font-weight: bold;
+    padding-left: 69px;
+}
+.info-produce p{
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 0.33rem;
+    color: #172948;
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.info-produce>a>img{
+    margin-left: 51px;
+}
+.info-produce-price{
+    font-size: 22px !important;
+    color: black;
+    padding-top: .7rem !important;
+    padding-bottom: 1rem !important;
+    min-height: 68px !important;
+    font-style: normal !important;
+}
+.slide-left{
+    background-color: #FFFFFF;
+    padding-top: 33px;
+    background: url('https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/bg-sp_home.png');
+    height: 420px;
+}
+.slide-left-img{
+    padding-left: 59px;
+    padding-right: 59px;
+}
+.slide-left-title,.slide-right-title{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.slide-left-title > h3{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.slide-left-price, .slide-right-price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.slide-left-button>img{
+    margin-left: 59px;
+    margin-right: 49px;
+    margin-bottom: 35px;
+}
+.slide-right-button>img{
+    margin-left: 59px;
+    margin-right: 49px;
+    margin-bottom: 35px;
+}
+.slide-right-title > h3{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.slide-right{
+    background-color: #FFFFFF;
+    padding-top: 33px;
+    background: url('https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/bg-sp_home.png');
+    z-index: 100;
+    height: 420px;
+}
+.slide-right-img{
+    padding-left: 59px;
+    padding-right: 59px;
+}
+
+.slider{
+   margin-left: 5px;
+   margin-right: 5px;
+   height: 420px;
+}
+
+/* banner mid */
+.banner-mid{
+    padding-top: 20px;
+}
+
+/* chuyen gia cung vnsupplement */
+.slider-idol{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.slider-idol-section{
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 350px;
+}
+.slider-idol-section>img{
+    position: absolute;
+    z-index: -1;
+}
+.idol-info{
+    position: absolute;
+    z-index: 1;
+    background-color: #1b1c23;
+    opacity: .7;
+    color: #FFFFFF;
+    bottom: 0;
+}
+.idol-name{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin-bottom: 0 !important;
+}
+.idol-achieve{
+    font-family: OpenSans-Italic, sans-serif;
+    font-size: 0.9333rem;
+    padding-left: 50px;
+}
+.fa-quote-left{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fa-quote-left>p{
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 20px;
+    line-height: 1.4;
+}
+.fa-quote-right{
+    padding-left: 520px;
+    padding-bottom: 15px;
+}
+
+/* tieu chuan chat luong */
+.slider-quality-img{
+    background-color: #FFFFFF;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.slider-quality-img>img{
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.slider-quality{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* footer */
+.footer{
+    margin-top: 20px !important;
+    background: url(https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/banner_footer.png);
+    padding-top: 50px;
+    padding-left: 35px;
+}
+.name-company{
+    font-family: Montserrat-bold,sans-serif;
+    font-weight: bold;
+    text-transform: initial;
+    font-style: initial;
+    font-size: 1.13rem;
+    color: white;
+    padding-top: 10px;
+}
+.address-company,.phone-number,.email-address,.copyright,.footer-content{
+    font-size: 0.867rem;
+    color: #fdfdfd;
+    opacity: .4;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+.copyright{
+    padding-bottom: 50px;
+}
+.footer-title{
+    font-size: 1.13rem;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    height: 2.2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+}
+.notice>img{
+    margin-top: 60px;
+}
+
+
+    /*  */
+    /* PRODUCT */
+    /*  */
+
+.product-sup{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.product{
+    background-color: #FFFFFF;
+    padding-top: 33px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 416px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.product-img{
+    padding-left: 44px;
+    padding-right: 59px;
+    padding-bottom: 30px !important;
+}
+.product-title{
+    font-family: Roboto BlackItalic, sans-serif;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #162949;
+}
+.product-title>h3{
+    padding-top: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+}
+.product-price{
+    color: #172948;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    min-height: 37px;
+    font-size: 1rem;
+    text-align: center;
+}
+.product-button>img{
+    margin-left: 32px;
+    margin-right: 49px;
+    margin-bottom: 35px;
+}
+.col-3{
+    padding: 0 !important;
+}
+
+.product-combo{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.phukien{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/* quan ao */
+.clothes{
+    height: 480px;
+}
+.quanao{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+        /*  */
+        /* Ve chung toi */
+        /*  */
+
+.aboutus{
+    background-color: #FFFFFF !important;
+}
+.aboutus-title{
+    font-family: Montserrat-Bold,sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #172948;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.aboutus-content{
+    font-size: 1.285rem;
+    color: #172948;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+        /*  */
+        /* Cam Nang */
+        /*  */
+.camnang-index-title>h2{
+    padding-top: 20px;
+}
+.slider-camnang{
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 320px;
+}
+.slider-camnang-left{
+    height: 320px;
+}
+.slider-camnang-left>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-control-prev-icon {
+    background-image: url("https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/prev.png") !important;
+    margin-left: -180px;
+    width: 2.5rem !important; 
+    height: 2.5rem !important;
+}
+.carousel-control-prev{
+    opacity: 1 !important;
+}
+.carousel-control-next{
+    opacity: 1 !important;
+}
+.carousel-control-next-icon {
+    background-image: url("https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/next.png") !important;
+    margin-right: -180px;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+}
+.slider-camnang-info{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.slider-camnang-title{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto BlackItalic, sans-serif;
+    padding-bottom: 10px;
+}
+.slider-camnang-content{
+    font-size: 1rem;
+    margin-bottom: 0.33rem;
+    color: #172948;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.fa-share-alt{
+    font-size: 1rem !important;
+    padding-right: 0.4rem !important;
+    color: #007bff;
+}
+
+.camnang{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.camnang-section{
+    background-color: #FFFFFF;
+    height: 357px;
+    margin-right: 8px;
+}
+.camnang-img{
+    height: 152px;
+}
+.camnang-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.camnang-title>h3{
+    color: #172948;
+    font-weight: bold;
+    font-family: Roboto BlackItalic, sans-serif;
+    font-size: 1.22rem;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.camnang-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 6.5rem;
+    text-align: justify;
+    font-size: 1rem;
+    color: #172948;
+    padding-bottom: 1px !important;
+}
+.fa-share-alt{
+    font-size: 1rem !important;
+    padding-right: 0.4rem !important;
+    color: #007bff;
+    padding-left: 10px;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #172948 !important;
+    border-color: #172948 !important;
+}
+.page-link{
+    color: #172948 !important;
+}
+.disabled>.page-link{
+    color: #dee2e6 !important;
+}
+
+
+        /*  */
+        /* Tin tuc */
+        /*  */
+.news{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.news-top-content{
+    background-color: #FFFFFF;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.news-index-title>h2{
+    padding-top: 20px;
+}
+.highlight{
+    margin-right: 30px;
+}
+.highlight-section{
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.highlight-title>h3{
+    color: #172948;
+    font-weight: bold;
+    font-family: Roboto BlackItalic, sans-serif;
+    font-size: 1.22rem;
+}
+.highlight-content>p{
+    font-family: Montserrat Light, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.33rem;
+    color: #172948;
+}
+.news-list{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.news-section{
+    background-color: #FFFFFF;
+    height: 313px;
+    margin-right: 5px;
+}
+.news-img{
+    height: 152px;
+}
+.news-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.news-title>h3{
+    color: #172948;
+    font-weight: bold;
+    font-family: Roboto BlackItalic, sans-serif;
+    font-size: 1.22rem;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.news-content>p{
+    font-family: Montserrat Light, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.33rem;
+    color: #172948;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.news-list>.col-4{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/*  */
+/* Responsive */
+/*  */
