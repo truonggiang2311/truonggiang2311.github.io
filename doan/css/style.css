@@ -68,9 +68,6 @@ img{
 .insta:hover{
     color: #000;
 }
-.carousel-item{
-    height: 513px;
-}
 
 .layout-body{
     padding-left: 0 !important;
@@ -97,18 +94,15 @@ img{
     margin-bottom: 0px;
 }
 .brand-name-description{
-    padding-right: 30px;
     padding-bottom: 20px;
 }
 .brand-logo{
-    padding: 40px 60px 80px 63px;  
+    padding: 40px 0px 80px 0px;  
 }
 .brand-logo>img{
     max-width: none;
 }
 .brand-info{
-    padding-left: 16px;
-    padding-right: 16px;
     font-size: 13pt !important;
     text-align: center;
     padding-bottom: 2rem;
@@ -117,10 +111,9 @@ img{
     display: flex;
     justify-content: center;
     padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
+    padding-bottom: 3.5rem;
 }
 .title>h5{
-    padding-left: 20px;
     font-size: 28px;
     width: 310px;
 }
@@ -137,12 +130,12 @@ img{
     z-index: 200;
 }
 .slick-prev{
-    z-index: 200;
+    z-index: 1;
     width: 43px !important;
     height: 43px !important;
 }
 .slick-next{
-    z-index: 200;
+    z-index: 1;
     width: 43px !important;
     height: 43px !important;
 }
@@ -206,10 +199,6 @@ img{
     background: url('https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/bg-sp_home.png');
     height: 420px;
 }
-.slide-left-img{
-    padding-left: 59px;
-    padding-right: 59px;
-}
 .slide-left-title,.slide-right-title{
     font-family: Roboto;
     font-style: italic;
@@ -223,6 +212,7 @@ img{
 .slide-left-title > h3{
     padding-top: 15px;
     padding-bottom: 20px;
+    color: #fff;
 }
 .slide-left-price, .slide-right-price{
     font-family: Montserrat;
@@ -235,18 +225,15 @@ img{
     color: #FFFFFF;
 }
 .slide-left-button>img{
-    margin-left: 59px;
-    margin-right: 49px;
     margin-bottom: 35px;
 }
 .slide-right-button>img{
-    margin-left: 59px;
-    margin-right: 49px;
     margin-bottom: 35px;
 }
 .slide-right-title > h3{
     padding-top: 15px;
     padding-bottom: 20px;
+    color: #fff;
 }
 .slide-right{
     background-color: #FFFFFF;
@@ -254,10 +241,6 @@ img{
     background: url('https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/bg-sp_home.png');
     z-index: 100;
     height: 420px;
-}
-.slide-right-img{
-    padding-left: 59px;
-    padding-right: 59px;
 }
 
 .slider{
@@ -285,10 +268,12 @@ img{
 .slider-idol-section>img{
     position: absolute;
     z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .idol-info{
-    position: absolute;
-    z-index: 1;
+    height: 50%;
     background-color: #1b1c23;
     opacity: .7;
     color: #FFFFFF;
@@ -308,8 +293,8 @@ img{
     padding-left: 50px;
 }
 .fa-quote-left{
-    padding-left: 30px;
-    padding-right: 30px;
+    position: absolute;
+    left: 10px;
 }
 .fa-quote-left>p{
     margin: 0;
@@ -318,8 +303,9 @@ img{
     line-height: 1.4;
 }
 .fa-quote-right{
-    padding-left: 520px;
-    padding-bottom: 15px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 
 /* tieu chuan chat luong */
@@ -378,6 +364,9 @@ img{
 .notice>img{
     margin-top: 60px;
 }
+.hover-white:hover{
+    color: #fff !important;
+}
 
 
     /*  */
@@ -398,8 +387,6 @@ img{
     padding-right: 30px;
 }
 .product-img{
-    padding-left: 44px;
-    padding-right: 59px;
     padding-bottom: 30px !important;
 }
 .product-title{
@@ -424,11 +411,9 @@ img{
     text-align: center;
 }
 .product-button>img{
-    margin-left: 32px;
-    margin-right: 49px;
     margin-bottom: 35px;
 }
-.col-3{
+.col-3,.col-6{
     padding: 0 !important;
 }
 
@@ -442,7 +427,7 @@ img{
 }
 /* quan ao */
 .clothes{
-    height: 480px;
+    height: 510px;
 }
 .quanao{
     padding: 0 !important;
@@ -544,7 +529,7 @@ img{
 }
 .camnang-section{
     background-color: #FFFFFF;
-    height: 357px;
+    height: 390px;
     margin-right: 8px;
 }
 .camnang-img{
@@ -605,12 +590,17 @@ img{
     margin: 0 !important;
     padding: 0 !important;
 }
-.news-index-title>h2{
+.news-index-title{
     padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.333rem;
+    color: #172948;
+    font-weight: bold;
+    font-family: Roboto BlackItalic, sans-serif;
+    font-style: italic;
+text-transform: uppercase;
 }
-.highlight{
-    margin-right: 30px;
-}
+
 .highlight-section{
     background-color: #FFFFFF;
     padding-top: 15px;
@@ -636,8 +626,9 @@ img{
 }
 .news-section{
     background-color: #FFFFFF;
-    height: 313px;
+    height: 100%;
     margin-right: 5px;
+    padding-bottom: 10px;
 }
 .news-img{
     height: 152px;
@@ -672,6 +663,675 @@ img{
 }
 
 
+    /*  */
+    /* ABSOLUTE ESSENTIALS */
+    /*  */
+
+.product-banner{
+    background: url('https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/bg-single.png') no-repeat center;
+    background-size: cover; 
+    padding: 2rem 0 !important;
+}
+.product-banner-img{
+    max-width: 25rem;
+}
+.product-banner-title{
+    font-size: 70px;
+    color: #172948;
+    font-family: Roboto BlackItalic, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 80px;
+}
+.product-banner-price{
+    font-size: 2rem;
+padding-top: 0.5rem;
+color: #172948;
+}
+.signal-pp{
+    color: black;
+text-decoration: underline !important;
+}
+.signal-pp:hover{
+    color: #000;
+}
+.distribution-product{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.distribution-items{
+    background-color:#fff;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 30px;
+    height: 188px;
+}
+.distribution-phone{
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 19.78px;
+    color: black;
+    font-family: Roboto BlackItalic, sans-serif;
+}
+.distribution-tv{
+    color: black;
+    font-weight: bold;
+    font-family: Roboto BlackItalic, sans-serif;
+}
+.add-address{
+    font-size: 12px;
+    color: #aaa;
+}
+a:hover{
+    color: black !important;
+}
+.download{
+    color: black;
+    font-weight: bold;
+    font-family: Roboto BlackItalic, sans-serif;
+}
+.product-details-main{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    font-weight: 300;
+}
+.bold{
+    font-weight: bold;
+}
+.product-details-title,.other-product-title{
+    font-size: 1.333rem;
+    color: #172948;
+    font-family: Montserrat-Bold, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.product-details-index{
+    font-size: 1.2rem;
+    font-family: Montserrat-Medium,sans-serif;
+}
+.mota{
+    padding: 1rem 0 0.8rem 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.font-weight400{
+    font-weight: 400;
+}
+p{
+    margin-bottom: 0 !important;
+}
+li>ul{
+    padding-left: 20px !important;
+}
+.other-product-main{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.equipment{
+    height: 100% !important;
+}
+
+
 /*  */
 /* Responsive */
 /*  */
+
+
+@media (max-width: 575.98px) {
+    .slider-quality{
+        display: none !important;
+    }
+    .slick-prev{
+        display: none !important;
+    }
+    .slick-next{
+        display: none !important;
+    }
+    .brand-section {
+    padding: 20px 10px !important;
+    height: 340px !important;
+    }
+    .slider-mobile-img {
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .slider-mobile-title,.slider-mobile-price{
+        font-size: 1.3rem !important;
+    }
+    .sp-mb{
+        height: 380px !important;
+    }
+    .slider-idol{
+        display: none !important;
+    }
+    .footer-cs{
+        padding: 0 !important;
+        padding-bottom: 20px !important;
+
+    }
+    .footer-cpn{
+        padding: 0 !important;
+    }
+    .footer-vct{
+        padding: 0 !important;
+    }
+    .footer-title{
+        height: 1rem !important;
+    }
+}
+
+
+@media (max-width: 767.98px) { 
+    .footer{
+        margin-top: 20px !important;
+        background: url(https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/banner_footer.png);
+        padding-top: 50px;
+        padding-left: 35px;
+    }
+    .name-company{
+        font-family: Montserrat-bold,sans-serif;
+        font-weight: bold;
+        text-transform: initial;
+        font-style: initial;
+        font-size: 0.8rem !important;
+        color: white;
+        padding-top: 10px;
+    }
+    .address-company,.phone-number,.email-address,.copyright,.footer-content{
+        font-size: 0.7rem;
+        color: #fdfdfd;
+        opacity: .4;
+        margin-bottom: 0;
+        padding-bottom: 8px;
+    }
+    .copyright{
+        padding-bottom: 50px;
+    }
+    .footer-title{
+        font-size: 0.8rem;
+        font-family: Roboto, sans-serif;
+        text-transform: uppercase;
+        font-style: italic;
+        height: 2.2rem;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+        color: white;
+    }
+    .notice>img{
+        margin-top: 60px;
+    }
+    .slider-camnang{
+        display: none;
+    }
+    .slider-camnang-info {
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: #fff;
+        }
+    .carousel-control-next-icon{
+        margin-left: -48px;
+    }
+    .camnang-section {
+        background-color: #FFFFFF;
+        height: 356px !important;
+        margin-right: 8px;
+        }
+    .product{
+        height: 382px !important;
+    }
+    .clothes{
+        height: 430px !important;
+    }
+    .product-banner-img {
+        max-width: 14rem !important;
+        }
+        .product-banner-title {
+            font-size: 40px !important;
+            color: #172948;
+            font-family: Roboto BlackItalic, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            padding-top: 80px;
+            }
+        .product-banner-mb{
+            text-align: center !important;
+        }
+        .product-banner-title {
+            font-size: 50px;
+            color: #172948;
+            font-family: Roboto BlackItalic, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            padding-top: 30px !important;
+            }
+        .distribution-items{
+            margin-top: 5px;
+        }
+}
+
+
+@media (max-width: 991.98px) { 
+    .trademark>.col-lg-3{
+        margin: 0 !important;
+        padding: 0 !important;
+        margin-top: 5px !important;
+    }
+    .brand-section {
+        padding: 50px 20px;
+        }
+    .slider-quality-img{
+        background-color: #FFFFFF;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .slider-quality-img>img{
+        margin:auto;
+        width: 98px !important;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .slider-quality{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .sp-mb{
+        height: 445px;
+    }
+    .carousel-control-prev-icon {
+        background-image: url("https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/prev.png") !important;
+        margin-left: -105px !important;
+        width: 2.5rem !important; 
+        height: 2.5rem !important;
+    }
+    .carousel-control-prev{
+        opacity: 1 !important;
+    }
+    .carousel-control-next{
+        opacity: 1 !important;
+    }
+    .carousel-control-next-icon {
+        background-image: url("https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/next.png") !important;
+        margin-right: -105px !important; 
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+    .slider-camnang-content {
+        font-size: 0.8rem;
+        margin-bottom: 0.33rem;
+        color: #172948;
+        text-align: justify;
+        padding-bottom: 20px;
+        }
+    .camnang-title>h3 {
+        color: #172948;
+        font-weight: bold;
+        font-family: Roboto BlackItalic, sans-serif;
+        font-size: 1.1rem;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+    .camnang-content {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 6.5rem;
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #172948;
+        padding-bottom: 1px !important;
+        }
+    .camnang-section {
+        background-color: #FFFFFF;
+        height: 410px;
+        margin-right: 8px;
+        } 
+    .fa-share-alt {
+        font-size: 0.9rem !important;
+        padding-right: 0.4rem !important;
+        color: #007bff;
+        padding-left: 10px;
+        }
+    .product{
+        background-color: #FFFFFF;
+        padding-top: 33px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        height: 416px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .product-button>img{
+        width: 140px !important;
+    }
+    .product-title>h3{
+        font-size: 20px;
+    }
+    .clothes{
+        height: 480px;
+    }
+    .highlight-title>h3 {
+        color: #172948;
+        font-weight: bold;
+        font-family: Roboto BlackItalic, sans-serif;
+        font-size: 1rem;
+        }
+    .highlight-content>p {
+        font-family: Montserrat Light, sans-serif;
+        font-size: 0.8rem;
+        margin-bottom: 0.33rem;
+        color: #172948;
+        }
+    .news-title>h3 {
+        color: #172948;
+        font-weight: bold;
+        font-family: Roboto BlackItalic, sans-serif;
+        font-size: 1rem;
+        font-style: italic;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        }
+    .news-content>p {
+        font-family: Montserrat Light, sans-serif;
+        font-size: 0.8rem;
+        margin-bottom: 0.33rem;
+        color: #172948;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        }
+    .slider-camnang-info{
+        padding-bottom: 10px;
+    }
+    .product-banner-img {
+        max-width: 18rem;
+        }
+        .product-banner-title {
+            font-size: 50px;
+            color: #172948;
+            font-family: Roboto BlackItalic, sans-serif;
+            font-weight: bold;
+            font-style: italic;
+            padding-top: 80px;
+            }
+            .product-banner-price {
+                font-size: 1.5rem;
+                padding-top: 0.5rem;
+                color: #172948;
+                }
+                body{
+                    font-size: 0.9rem !important; 
+                }
+ }
+
+
+@media (max-width: 1199.98px) { 
+    .layout-body{
+        margin-left: 0 !important;
+    }
+    .position-fixed{
+        position: none !important;
+    }
+    .menu{
+        padding-bottom: 0 !important;
+    }
+    .menu>.col-3{
+        display: none;
+    }
+    .sub{
+        display: none;
+    }
+    .main-menu{
+        position: relative;
+    }
+    .navbar-brand{
+        position: absolute;
+        left: 140px;
+    }
+    .logo-mobile{
+        position: absolute;
+        top: 22px;
+        left: 90px;
+    }
+    .cart{
+        position: absolute;
+        right: 0px;
+        top: 20px
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3…miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    .brand-name{
+        font-size: 1.4rem;
+    }
+    .trademark-widget {
+        background-color: #FFFFFF;
+        margin-right: 5px;
+        height: 350px;
+    }
+    .brand-section {
+        padding: 30px 20px;
+    }
+    .brand-logo {
+        padding: 20px 0px 60px 0px;
+    }
+    .sp{
+        display: none !important;
+    }
+    .slider-mobile-img{
+        width: 200px;
+        height: 200px;
+    }
+    .slider-mobile-title{
+        padding-top: 2rem;
+        color: white;
+        font-size: 1.75rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .slider-mobile-price{
+        color: white;
+        padding-bottom: 1rem;
+        font-size: 1.867rem;
+    }
+    .sp-mb{
+        background: url('https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/bg-sp_home.png') no-repeat center;
+        background-size: cover !important;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .slider-mobile{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .sp-mb{
+        margin-right: 5px;
+    }
+    .slider-mobile>.slick-next{
+        margin-right: 5px;
+    }
+    .banner-mid{
+        margin-top: 30px;
+    }
+    .idol-name{
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 1.2;
+        padding-left: 30px !important;
+        padding-top: 15px;
+        margin-bottom: 0 !important;
+    }
+    .idol-achieve{
+        font-family: OpenSans-Italic, sans-serif;
+        font-size: 0.9333rem;
+        padding-left: 30px !important;
+    }
+    .carousel-control-prev-icon {
+        background-image: url("https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/prev.png") !important;
+        margin-left: -140px ;
+        width: 2.5rem !important; 
+        height: 2.5rem !important;
+    }
+    .carousel-control-prev{
+        opacity: 1 !important;
+    }
+    .carousel-control-next{
+        opacity: 1 !important;
+    }
+    .carousel-control-next-icon {
+        background-image: url("https://vnsupplements.vn/wp-content/themes/vnsupplements/dist/images/next.png") !important;
+        margin-right: -140px ; 
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+    .slider-camnang-title {
+        font-size: 1.5rem;
+        color: black;
+        font-weight: bold;
+        font-family: Roboto BlackItalic, sans-serif;
+        padding-bottom: 10px;
+        }
+    .product-sup{
+        margin-top: 0 !important;
+    }  
+    .navbar-brand{
+        position: absolute !important;
+        z-index: 1;
+    }
+    .navbar-nav{
+        position: absolute;
+        z-index: 10;
+        background: linear-gradient(to right top, #6a6a6a, #000000);
+        width: 103%;
+        top: 0;
+        margin-left: -12px;
+        padding-left: 20px !important;
+        position: fixed;
+    }
+    .nav-link{
+        color: #fff !important;
+        font-style: normal;
+    }
+    .nav-link:hover{
+        color: #fff !important;
+    }
+    .nav-item{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+    }
+    svg {
+        fill: currentColor;
+        width: 1em;
+        height: 1em;
+        position: relative;
+        top: 2px;
+        }
+    .call-btn-mobile{
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .call-btn-mobile:hover{
+        color: #fff !important;
+    }
+    .location-btn-mobile{
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+        border-left: 1px solid rgba(255, 255, 255, 0.15) !important;
+        border-right: 1px solid rgba(255, 255, 255, 0.15) !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .location-btn-mobile:hover{
+        color: #fff !important;
+    }
+    .close-menu{
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .close-menu:hover{
+        color: #fff !important;
+    }
+    .nav-link-mb{
+        padding-bottom: 1000px !important;
+    }
+    .slider-idol{
+        display: none !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .slider-quality-mb{
+        display: none !important;
+    }
+    .slider-idol-mb{
+        display: none ;
+    }
+    
+}
+@media (min-width: 768px) {
+    .slider-camnang-mb{
+        display: none;
+    }
+    
+}
+@media (min-width: 992px) {
+    .trademark>.col-lg-3{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .slider-quality-img>img{
+        margin:auto;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        width: 113px !important;
+    }
+    .highlight{
+        margin-right: 30px;
+    }
+}
+ @media (min-width: 1200px) { 
+     .fixed{
+         position: fixed;
+     }
+     .cart{
+         display: none;
+     }
+     .logo-mobile{
+         display: none;
+     }
+     .slider-mobile{
+         display: none !important;
+     }
+     .slider-quality-img>img{
+        margin:auto;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        width: 113px !important;
+    }
+    .add-nav-mb{
+        display: none !important;
+    }
+    .slider-idol-mb{
+        display: none !important;
+    }
+    .product-sup{
+        margin-top: 50px !important;
+    }
+    
+}
+@media (min-width: 1345px) { 
+    .camnang-section{
+        background-color: #FFFFFF;
+        height: 360px;
+        margin-right: 8px;
+    }
+}
+@media (max-width: 1399.98px) { 
+}
