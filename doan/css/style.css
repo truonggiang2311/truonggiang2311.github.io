@@ -124,9 +124,8 @@ img{
     margin: 0 !important;
 }
 .img-size{
-    height: 420px;
     object-fit: cover;
-    
+    height: 420px;
 }
 .slick-arrow{
     z-index: 200;
