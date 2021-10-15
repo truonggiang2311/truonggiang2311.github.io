@@ -71,7 +71,7 @@ h3{
 .img-cover{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 .tour-list{
     padding: 100px 0;
@@ -87,9 +87,6 @@ h3{
 }
 img{
     max-width: 100%;
-}
-.col-3,.col-4{
-    padding: 0 !important;
 }
 .rel:hover{
     opacity: 0.8;
@@ -171,8 +168,21 @@ img{
     font-size: 1.75rem;
 }
 /* Trang Northern Viet Nam */
+.banner{
+    position: relative;
+}
 .img-banner{
     width: 100%;
+    
+}
+.title-banner{
+    position: absolute;
+    z-index: 10;
+    left: 10%;
+    top: 40%;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
 }
 
 /* Trang Ha Noi */
@@ -202,15 +212,177 @@ img{
 .tour-title :hover{
     color: #745cf9 !important;
 }
-.tour-section-info{
-    padding-left: 30px !important; 
-}
-/* .duration > p{
-    margin-bottom: 0 ;
-} */
 .duration-title{
     color: #745cf9;
 }
 .price-title{
     color: #745cf9;
+}
+
+
+/* TOUR DETAIL AND BOOKING */
+.btn-book{
+    line-height: 24px;
+    min-width: 100px;
+    padding: 13px 26px !important;
+    background-color: #745cf9 !important;
+    border-bottom: 1px solid black !important;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+    border: 2px solid #745cf9 !important; 
+    border-radius: 0 !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
+}
+.group-tour{
+    margin-bottom: 25px;
+}
+.private-tour{
+    margin-bottom: 25px;
+}
+.sidebar-main{
+    border: 1px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sidebar-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #745cf9;
+    border-bottom: 1px solid #745cf9;
+}
+
+/* Transport */
+.transport-index-title>h2{
+    padding-top: 20px;
+}
+.transportation{
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+.transport-section{
+    background-color: #FFFFFF;
+    height: 420px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+}
+.transport-img{
+    height: 152px;
+}
+.transport-img>img{
+    width: 100%;
+    height: 100%;
+}
+.transport-title>h4{
+    font-size:18px;
+    color: #172948;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.transport-content{
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 6.5rem;
+    text-align: justify;
+    font-size: 1rem;
+    color: #172948;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #172948 !important;
+    border-color: #172948 !important;
+}
+.page-link{
+    color: #172948 !important;
+}
+.disabled>.page-link{
+    color: #dee2e6 !important;
+}
+
+/* RESPONSIVE */
+@media (min-width: 576px) {
+    .title-banner{
+        left: 15%;
+        top: 40%;
+        font-size: 60px;
+    }
+}
+/* @media (max-width: 768px) {
+    .title-banner{
+        left: 15%;
+        top: 40%;
+        font-size: 60px;
+    }
+} */
+@media (max-width : 768px)  {
+    .footer{
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .title-banner{
+        left: 15%;
+        top: 40%;
+        font-size: 80px;
+    }
+}
+@media (min-width: 992px) {
+    .title-banner{
+        left: 25%;
+        top: 40%;
+        font-size: 80px;
+    }
+    .transport-section{
+        height: 420px;
+        margin-right: 8px;
+        margin-bottom: 30px;
+    }
+    .transport-title>h4{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+}
+@media (min-width: 1200px) {
+    .title-banner{
+        left: 25%;
+        top: 40%;
+        font-size: 100px;
+    }
+    .transport-section{
+        height: 380px;
+        margin-right: 8px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1400px) {
+    .title-banner{
+        left: 25%;
+        top: 40%;
+        font-size: 100px;
+    }
+    
+}
+@media (min-width: 1500px) {
+    .title-banner{
+        left: 30%;
+        top: 40%;
+        font-size: 120px;
+    }
+    
+}
+@media (min-width: 1700px) {
+    .title-banner{
+        left: 30%;
+        top: 40%;
+        font-size: 150px;
+    }
+    
 }
