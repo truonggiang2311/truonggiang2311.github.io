@@ -1,5 +1,7 @@
 .container{
     max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .header{
     background-image: url(Image.png),linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%);
