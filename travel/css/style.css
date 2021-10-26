@@ -361,6 +361,9 @@ img{
         margin-right: 8px;
         margin-bottom: 30px;
     }
+    .submit-contact{
+        padding-right: 130px;
+    }
 }
 @media (min-width: 1400px) {
     .title-banner{

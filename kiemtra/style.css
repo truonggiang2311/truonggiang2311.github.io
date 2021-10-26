@@ -1,7 +1,5 @@
 .container{
     max-width: 1440px;
-    padding-left: 0;
-    padding-right: 0;
 }
 .header{
     background-image: url(Image.png),linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%);
@@ -16,14 +14,22 @@
     font-size: 18px;
     line-height: 24px;
     /* identical to box height, or 133% */
-    padding-left: 85px; 
     color: #FFFFFF;
+}
+.nav-link:hover{
+    color: #006DFE !important;
+}
+.nav-item{
+    padding-right: 30px; 
 }
 .collapse{
     padding-right: 170px;
 }
 nav{
-    padding-left: 190px;
+    padding-right: 0;
+}
+.row{
+    width: 100%;
 }
 .discover-title{
     font-family: Lato;
@@ -44,8 +50,8 @@ line-height: 24px;
 color: #FFFFFF;
 }
 .discover{
-    padding-left: 192px;
-    padding-top: 193px;
+    /* padding-left: 192px; */
+    padding-top: 30px;
 }
 .search input{
     border: 2px solid #BFC0C5;
@@ -251,8 +257,6 @@ li{
 }
 .footer-brand{
     padding-top: 116px;
-    padding-left: 192px;
-    padding-bottom: 185px;
 }
 .list-name{
     font-family: Lato;
@@ -267,6 +271,7 @@ color: #FFFFFF;
 }
 .menu-list{
     padding-top: 130px;
+    padding-bottom: 50px;
 }
 .menu-list a{
     font-family: Lato;
@@ -276,4 +281,61 @@ color: #FFFFFF;
     line-height: 24px;
     /* identical to box height, or 150% */
     color: #FFFFFF;
+}
+.nav-link-footer:hover{
+    color: #006DFE;
+}
+@media (min-width: 576px) {
+    .discover{
+        /* padding-left: 192px; */
+        padding-top: 163px;
+    }
+    
+}
+@media (min-width: 768px) {
+    .discover{
+        /* padding-left: 192px; */
+        padding-top: 193px;
+    }
+}
+@media (max-width: 768px) {
+    .Benefits{
+        padding-bottom: 30px;
+    }
+    .Prefecture-title,.Featured-title{
+        font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height, or 133% */
+    color: #102746;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .Prefecture-description,.Featured-description{
+        font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #102746;
+    padding-bottom: 20px;
+    }
+    .Featured-img{
+        padding-top: 20px;
+    }
+    .Featured-title{
+        padding-top: 60px;
+    }
+    .menu-list{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:992px) {
+    .footer-brand-mobile{
+        text-align: center;
+    }
 }
