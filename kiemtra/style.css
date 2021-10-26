@@ -302,6 +302,15 @@ color: #FFFFFF;
     .Benefits{
         padding-bottom: 30px;
     }
+    .menu-list{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:992px) {
+    .footer-brand-mobile{
+        text-align: center;
+    }
     .Prefecture-title,.Featured-title{
         font-family: Lato;
     font-style: normal;
@@ -328,14 +337,5 @@ color: #FFFFFF;
     }
     .Featured-title{
         padding-top: 60px;
-    }
-    .menu-list{
-        padding-top: 50px;
-        padding-bottom: 30px;
-    }
-}
-@media (max-width:992px) {
-    .footer-brand-mobile{
-        text-align: center;
     }
 }
