@@ -322,6 +322,7 @@ color: #FFFFFF;
     }
     .intro{
         padding-left: 50px;
+        padding-bottom: 50px;
     }
     .search input{
         border: 2px solid #BFC0C5;
@@ -332,6 +333,15 @@ color: #FFFFFF;
         padding-bottom: 20px;
         padding-right: 15px;
         margin-right: 15px;
+    }
+    .today-title{
+        padding-bottom: 10px;
+    }
+    .today {
+        padding-top: 100px
+    }
+    .intro-title{
+        padding-top: 25px;
     }
 }
 @media (min-width: 576px) {
@@ -386,5 +396,11 @@ color: #FFFFFF;
     }
     .Featured-title{
         padding-top: 60px;
+    }
+    .Prefecture-content{
+        padding-left: 0;
+    }
+    .Featured-content{
+        padding-left: 0;
     }
 }
