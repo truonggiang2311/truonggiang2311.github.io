@@ -321,7 +321,7 @@ color: #FFFFFF;
         text-align: center;
     }
     .intro{
-        padding-left: 50px;
+        padding-left: 55px;
         padding-bottom: 50px;
     }
     .search input{
@@ -342,6 +342,12 @@ color: #FFFFFF;
     }
     .intro-title{
         padding-top: 25px;
+    }
+    .Prefecture-title{
+        padding-bottom: 0px !important;
+    }
+    .Featured-title{
+        padding-bottom: 0 !important;
     }
 }
 @media (min-width: 576px) {
