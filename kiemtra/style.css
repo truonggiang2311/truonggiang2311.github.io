@@ -29,8 +29,11 @@ nav{
     padding-right: 0;
 }
 .row{
-    width: 100%;
+    --bs-gutter-x: 0rem;
 }
+/* .row{
+    width: 100%;
+} */
 .discover-title{
     font-family: Lato;
 font-style: normal;
@@ -51,7 +54,7 @@ color: #FFFFFF;
 }
 .discover{
     /* padding-left: 192px; */
-    padding-top: 30px;
+    padding-top: 150px;
 }
 .search input{
     border: 2px solid #BFC0C5;
@@ -63,7 +66,7 @@ color: #FFFFFF;
     padding-right: 50px;
     margin-right: 15px;
 }
-.btn{
+.btn-search{
     font-family: Lato;
 font-style: normal;
 font-weight: 500;
@@ -73,6 +76,9 @@ line-height: 29px;
 color: #FFFFFF;
 background: #1B7DFF;
 padding: 15px 39px 14px 39px;
+}
+.btn-search:hover{
+    opacity: 0.6;
 }
 /* input[type="text"]{
     color: orange;
@@ -235,11 +241,12 @@ font-size: 16px;
 line-height: 24px;
 /* or 150% */
 color: #102746;
-padding-top: 46px;
-padding-bottom: 34px;
+padding-top: 30px;
+padding-bottom: 18px;
+width: auto;
 }
 .btn-seemore{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     background-color: #006DFE;
     font-family: Lato;
 font-style: normal;
@@ -248,6 +255,9 @@ font-size: 16px;
 line-height: 19px;
 padding: 12px 19px 11px 19px;
 color: #FFFFFF;
+}
+.btn-seemore:hover{
+    opacity: 0.6;
 }
 .footer{
     background-color: #0E1D28;
@@ -284,6 +294,44 @@ color: #FFFFFF;
 }
 .nav-link-footer:hover{
     color: #006DFE;
+}
+.navbar-toggler{
+    position: relative;
+}
+.navbar-nav{
+    position: absolute;
+    z-index: 1000;
+    top: 10;
+    right: 35px;
+}
+.img-hover:hover{
+    opacity: 0.8;
+}
+@media (max-width:576px) {
+    .discover-title{
+        font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 50px;
+    color: #FFFFFF;
+    }
+    .discover-description{
+        padding-top: 10px;
+        font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #FFFFFF;
+    }
+    .discover-mobile{
+        text-align: center;
+    }
+    .intro{
+        padding-left: 50px;
+    }
 }
 @media (min-width: 576px) {
     .discover{
