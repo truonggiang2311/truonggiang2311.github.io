@@ -4,6 +4,9 @@ body {
 a {
   text-decoration: none !important;
 }
+.ps-308{
+  padding-left: 0.8rem!important;
+}
 .site-title {
   font-size: 28px;
   line-height: 52px;
