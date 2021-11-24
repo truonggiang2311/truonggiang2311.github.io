@@ -24,6 +24,11 @@ a {
 .nav-link:hover {
   color: #5d47d7 !important;
 }
+.navbar-toggler{
+  position: absolute;
+  right: 0;
+  top: 15px
+}
 h3 {
   font-size: 30px !important;
   line-height: 33px !important;
